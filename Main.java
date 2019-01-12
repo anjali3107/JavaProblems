@@ -24,15 +24,18 @@ public class Main {
 
         //int[] arr = {1,2,3,4,5};
        // Reversearray reversearray = new Reversearray();
-        //reversearray.reverseArray(arr);
-        System.out.println("Enter the value of a: ");
-        int a=scanner.nextInt();
-        scanner.nextLine();
-        System.out.println("Enter the value of b");
-        int b=scanner.nextInt();
-        scanner.nextLine();
+//        reversearray.reverseArray(arr);
+//        System.out.println("Enter the value of a: ");
+//        int a=scanner.nextInt();
+//        scanner.nextLine();
 //        System.out.println("Enter the value of b");
-        MiniumElementInArray minelement= new MiniumElementInArray();
-        minelement.minmumValuInArray(a,b);
+//        int b=scanner.nextInt();
+//        scanner.nextLine();
+////        System.out.println("Enter the value of b");
+//        MiniumElementInArray minelement= new MiniumElementInArray();
+//        minelement.minmumValuInArray(a,b);
+        int[] arr={1,2,10,0,22,12};
+        MiniumElementInArray minElement=new MiniumElementInArray();
+        minElement.minmumValuInArray(arr);
     }
 }
