@@ -19,8 +19,20 @@ public class Main {
 //        }
 //        System.out.println("Enter the Array to be reversed: ");
 //        jjj
-        int[] arr = {1,2,3,4,5};
-        Reversearray reversearray = new Reversearray();
-        reversearray.reverseArray(arr);
+       // int n=scanner.nextInt();
+        //int[] arr= scanner.
+
+        //int[] arr = {1,2,3,4,5};
+       // Reversearray reversearray = new Reversearray();
+        //reversearray.reverseArray(arr);
+        System.out.println("Enter the value of a: ");
+        int a=scanner.nextInt();
+        scanner.nextLine();
+        System.out.println("Enter the value of b");
+        int b=scanner.nextInt();
+        scanner.nextLine();
+//        System.out.println("Enter the value of b");
+        MiniumElementInArray minelement= new MiniumElementInArray();
+        minelement.minmumValuInArray(a,b);
     }
 }
